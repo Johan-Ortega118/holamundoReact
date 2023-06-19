@@ -27,3 +27,6 @@ jobs:
         with:
           args: >
             -Dsonar.branch.name=release
+            -Dsonar.projectKey=Johan-Ortega118_holamundoReact
+            -Dsonar.organization=johan-ortega118
+
