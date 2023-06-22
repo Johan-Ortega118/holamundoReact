@@ -53,6 +53,7 @@ jobs:
           cmd_options: '-a'
   release:
     runs-on: ubuntu-latest
+    name: Despliegue
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 16.x
