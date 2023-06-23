@@ -70,7 +70,7 @@ jobs:
         uses: SpicyPizza/create-envfile@v1.3
         with:
           envkey_NG_APP_KEY : ${{ secrets.OPENAI_KEY }}
-          file_name: .env
+          file_name: ${{ secrets.NG_APP_KEY }}
           fail_on_empty: false
           
       - name: build angular, output in dist/openai
