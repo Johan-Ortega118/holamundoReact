@@ -1,4 +1,4 @@
-name: release CI, CD workflow 
+name: pruebasDesliegue
 on: 
   push:
     branches: [ "release"]
